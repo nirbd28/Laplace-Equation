@@ -1,0 +1,1 @@
+-force-include-file "Project.c";"d:\ניר\מסמכים\National Instruments\CVI\Project\Project.c" 

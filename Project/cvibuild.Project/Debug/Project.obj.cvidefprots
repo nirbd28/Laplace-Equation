@@ -1,0 +1,104 @@
+[v_bn]
+Class="Function"
+Prototype="double v_bn(int n);"
+
+[v_an]
+Class="Function"
+Prototype="double v_an(int n);"
+
+[w_bn]
+Class="Function"
+Prototype="double w_bn(int n);"
+
+[w_an]
+Class="Function"
+Prototype="double w_an(int n);"
+
+[v]
+Class="Function"
+Prototype="double v(double x, double y);"
+
+[w]
+Class="Function"
+Prototype="double w(double x, double y);"
+
+[get_parameters]
+Class="Function"
+Prototype="void get_parameters();"
+
+[set_graph_color]
+Class="Function"
+Prototype="int set_graph_color(int x);"
+
+[cursor_off]
+Class="Function"
+Prototype="void cursor_off();"
+
+[set_delta_off]
+Class="Function"
+Prototype="void set_delta_off();"
+
+[main]
+Class="Function"
+Prototype="int main(int argc, char **argv);"
+
+[QuitCallback]
+Class="Function"
+Prototype="int QuitCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[canvas]
+Class="Function"
+Prototype="int canvas(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[timer]
+Class="Function"
+Prototype="int timer(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[calc]
+Class="Function"
+Prototype="int calc(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[a_fun]
+Class="Function"
+Prototype="int a_fun(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[b_fun]
+Class="Function"
+Prototype="int b_fun(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[go_graph]
+Class="Function"
+Prototype="int go_graph(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[hide_panel2]
+Class="Function"
+Prototype="int hide_panel2(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[FIXED_RING]
+Class="Function"
+Prototype="int FIXED_RING(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[show_graph_y]
+Class="Function"
+Prototype="int show_graph_y(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[DEL_GRAPH]
+Class="Function"
+Prototype="int DEL_GRAPH(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[CURSOR1]
+Class="Function"
+Prototype="int CURSOR1(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[CURSOR2]
+Class="Function"
+Prototype="int CURSOR2(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[graph_fixed]
+Class="Function"
+Prototype="int graph_fixed(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[PLOT3D]
+Class="Function"
+Prototype="int PLOT3D(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+

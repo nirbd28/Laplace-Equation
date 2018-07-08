@@ -1,0 +1,42 @@
+CCFLAGS = -g ;
+HDRS = 	"d:\\program files (x86)\\national instruments\\cvi2015\\toolslib\\activex\\word"
+	"d:\\program files (x86)\\national instruments\\cvi2015\\toolslib\\activex\\excel"
+	"d:\\program files (x86)\\national instruments\\cvi2015\\toolslib\\custctrl"
+	"d:\\program files (x86)\\national instruments\\cvi2015\\toolslib\\custctrl\\custsupp"
+	"d:\\program files (x86)\\national instruments\\cvi2015\\toolslib\\cvirtsup"
+	"d:\\program files (x86)\\national instruments\\cvi2015\\toolslib\\datasock"
+	"d:\\program files (x86)\\national instruments\\cvi2015\\toolslib\\daqUtil"
+	"d:\\program files (x86)\\national instruments\\cvi2015\\toolslib\\printing"
+	"d:\\program files (x86)\\national instruments\\cvi2015\\toolslib\\toolbox"
+	"d:\\program files (x86)\\national instruments\\cvi2015\\toolslib\\reportgen"
+	"d:\\program files (x86)\\national instruments\\cvi2015\\toolslib\\localui"
+	"d:\\program files (x86)\\national instruments\\cvi2015\\instr"
+	"D:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\toolslib\\custctrl"
+	"D:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\toolslib\\custctrl\\custsupp"
+	"D:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\instr"
+	"C:\\ProgramData\\National Instruments\\CVI2015\\instr"
+	"d:\\program files (x86)\\national instruments\\cvi2015\\include"
+	"D:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\include"
+	"C:\\ProgramData\\National Instruments\\CVI2015\\include"
+	"C:\\ProgramData\\National Instruments\\CVI\\include"
+	"d:\\program files (x86)\\national instruments\\cvi2015\\include\\ansi"
+	"d:\\program files (x86)\\national instruments\\cvi2015\\include\\clang\\3.3"
+	"C:\\Program Files (x86)\\IVI Foundation\\IVI\\Include"
+	"C:\\Program Files (x86)\\IVI Foundation\\VISA\\winnt\\include"
+	"D:\\Program Files (x86)\\National Instruments\\Shared\\MSDTRedistributables\\SDKHeaderFiles\\8.1"
+	"d:\\Program Files (x86)\\National Instruments\\CVI2015\\bin"
+	"c:\\ProgramData\\National Instruments\\CVI2015\\bin"
+	"d:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\Bin"
+	;
+include Jamfile_instr ;
+LOCATE on "Project.c" = "d:\\ניר\\מסמכים\\National Instruments\\CVI\\Project" ;
+Object "d:\\ניר\\מסמכים\\National Instruments\\CVI\\Project\\cvibuild.Project\\Debug\\Project.obj" : "d:\\ניר\\מסמכים\\National Instruments\\CVI\\Project\\Project.c" ;
+FILENUM on "d:\\ניר\\מסמכים\\National Instruments\\CVI\\Project\\cvibuild.Project\\Debug\\Project.obj" = 1 ;
+DEFPROTS on "d:\\ניר\\מסמכים\\National Instruments\\CVI\\Project\\cvibuild.Project\\Debug\\Project.obj" = "d:\\ניר\\מסמכים\\National Instruments\\CVI\\Project\\cvibuild.Project\\Debug\\Project.obj.cvidefprots" ;
+OUTFILE on "d:\\ניר\\מסמכים\\National Instruments\\CVI\\Project\\cvibuild.Project\\Debug\\Project.obj" = "d:\\ניר\\מסמכים\\National Instruments\\CVI\\Project\\cvibuild.Project\\Debug\\Project.obj.out" ;
+PrjObjects += "d:\\ניר\\מסמכים\\National Instruments\\CVI\\Project\\cvibuild.Project\\Debug\\Project.obj" ;
+Object "d:\\ניר\\מסמכים\\National Instruments\\CVI\\Project\\cvibuild.Project\\Debug\\resources.res" : "d:\\ניר\\מסמכים\\National Instruments\\CVI\\Project\\cvibuild.Project\\Debug\\resources.in.rc" ;
+MainFromObjects "d:\\ניר\\מסמכים\\National Instruments\\CVI\\Project\\cvibuild.Project\\Debug\\Project.exe" : $(PrjObjects) $(InstrObjects) ;
+Depends "d:\\ניר\\מסמכים\\National Instruments\\CVI\\Project\\cvibuild.Project\\Debug\\Project.exe" : "d:\\ניר\\מסמכים\\National Instruments\\CVI\\Project\\cvibuild.Project\\Debug\\link_options.txt" ;
+Depends "d:\\ניר\\מסמכים\\National Instruments\\CVI\\Project\\cvibuild.Project\\Debug\\Project.exe" : "d:\\ניר\\מסמכים\\National Instruments\\CVI\\Project\\cvibuild.Project\\Debug\\resources.res" ;
+Depends all : "d:\\ניר\\מסמכים\\National Instruments\\CVI\\Project\\cvibuild.Project\\Debug\\Project.exe" ;
